@@ -1,6 +1,6 @@
 # Skills
 
-Personal Codex skills for reusable agent workflows.
+Personal agent skills for reusable workflows.
 
 ## Included skills
 
@@ -15,7 +15,7 @@ Each skill lives under `.agents/skills/<skill-name>/` and contains a `SKILL.md` 
 
 ## Usage
 
-Clone the repository, then make the skills available from the `.agents/skills` directory in your Codex environment. Invoke a skill by name when its workflow matches your task.
+Clone the repository, then make the skills available from the `.agents/skills` directory in your agent environment. Invoke a skill by name when its workflow matches your task.
 
 ```bash
 git clone git@github.com:beserb/skills.git
