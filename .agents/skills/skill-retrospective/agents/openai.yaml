@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill Retrospective"
+  short_description: "Audit session friction and improve skills"
+  default_prompt: "Use $skill-retrospective to audit this session’s skill usage and propose evidence-backed improvements."

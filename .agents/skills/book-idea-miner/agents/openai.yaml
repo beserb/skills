@@ -1,0 +1,4 @@
+interface:
+  display_name: "Book Idea Miner"
+  short_description: "Mine books for reusable skill ideas"
+  default_prompt: "Use $book-idea-miner to read these books and shortlist ideas for new or improved skills."
