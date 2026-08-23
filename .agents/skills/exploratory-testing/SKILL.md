@@ -23,6 +23,10 @@ target, run tests, or mutate state only when the user delegates that specific
 action. A request for ideas, guidance, or a testing session keeps the user as
 driver.
 
+If the user asks only for a charter or idea backlog, produce that planning
+artifact without implying that a session ran. Begin the one-experiment cadence
+only when live execution starts.
+
 The mode is established when it is clear who operates the target. If the user
 has not delegated operation, proceed as live copilot without asking.
 
@@ -98,8 +102,11 @@ branch in [references/situations.md](references/situations.md) to generalize the
 evidence without overextending it.
 
 When a bad surprise appears, characterize its conditions, scope, severity,
-recovery, and evidence. Seek the smallest reliable reproduction while retaining
-credible intermittent risks. Use the intermittent-failure branch in
+recovery, and evidence. Before classifying it as target behavior, check for an
+observer effect from the harness, test data, environment, cache, or temporary
+instrumentation. Corroborate through an independent route when practical. Seek
+the smallest reliable reproduction while retaining credible intermittent risks.
+Use the intermittent-failure branch in
 [references/situations.md](references/situations.md) when needed.
 
 ## Evaluate observations

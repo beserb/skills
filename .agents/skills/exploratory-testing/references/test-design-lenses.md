@@ -32,6 +32,10 @@ same state; reverse a workflow; repeat actions; skip prerequisites; and revisit
 earlier steps. For web flows, exercise browser Back/Forward/history and bookmark
 an intermediate page.
 
+When multiple actors matter, vary same-account and different-account sessions;
+interleave or synchronize their actions; and watch for duplicate effects, lost
+updates, stale authorization, and broken ownership.
+
 When habit narrows the search, combine system nouns and verbs into unusual
 actions or sequences. A realistic or extreme persona can supply a consistent
 goal, knowledge level, pace, and interaction style instead of arbitrary abuse.
