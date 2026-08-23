@@ -58,6 +58,12 @@ when interactions matter—for example CRUD × Zero/One/Many dependents or a sta
 interruption × a slow network. Prefer plausible, discriminating variations over
 exhaustive combinations.
 
+For broad idea generation across data, platforms, regression, accessibility,
+specifications, or automation, read
+[references/test-heuristics-catalog.md](references/test-heuristics-catalog.md).
+Treat it as a menu: account for the sections relevant to the charter, select
+risk-bearing heuristics, and combine them rather than exhausting the catalog.
+
 ## Run an adaptive session
 
 Start with the smallest representative success path when the baseline is not
