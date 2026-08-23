@@ -1,0 +1,4 @@
+interface:
+  display_name: "Exploratory Testing"
+  short_description: "Guide human-led adaptive testing sessions"
+  default_prompt: "Use $exploratory-testing as my live testing copilot: help me set a charter, suggest one experiment at a time, and adapt from my observations."
