@@ -2,7 +2,7 @@
 
 Use only the section matching the current task.
 
-## Unfamiliar or existing system: recon
+## Unfamiliar system: recon
 
 Run a short recon session before risk-specific charters. Map what the system
 does, its inputs and outputs, interfaces and dependencies, visible and hidden

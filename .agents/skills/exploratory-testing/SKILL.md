@@ -32,10 +32,13 @@ Determine with the user the target, the stakeholder decision the work supports,
 the available time, and the test environment. Prefer a disposable environment
 and recoverable data. Keep disruptive experiments within the user's authority.
 Obtain approval or use a safe simulation when an experiment could damage shared
-data, interrupt a service, incur cost, or affect other users.
+data, interrupt a service, incur cost, or affect other users. Use synthetic or
+minimized data where possible. Before recording or sharing evidence, redact
+credentials, session tokens, payment data, personal data, and other secrets.
 
-For an unfamiliar system, first use the recon branch in
-[references/situations.md](references/situations.md). Otherwise identify:
+For an unfamiliar system, a requirement or design, or an API, batch, library, or
+headless target, read [references/situations.md](references/situations.md) and
+apply only the matching branch before continuing. Otherwise identify:
 
 - the core capability or user value at stake;
 - important **Always/Never** invariants and quality concerns;
@@ -57,12 +60,6 @@ select the few lenses most likely to expose the charter's risk. Combine lenses
 when interactions matter—for example CRUD × Zero/One/Many dependents or a state
 interruption × a slow network. Prefer plausible, discriminating variations over
 exhaustive combinations.
-
-For broad idea generation across data, platforms, regression, accessibility,
-specifications, or automation, read
-[references/test-heuristics-catalog.md](references/test-heuristics-catalog.md).
-Treat it as a menu: account for the sections relevant to the charter, select
-risk-bearing heuristics, and combine them rather than exhausting the catalog.
 
 ## Run an adaptive session
 
@@ -96,7 +93,9 @@ In either mode, keep lightweight notes with the setup or data, action,
 observation, oracle, and next question. Record surprises even when they are not
 yet bugs. Change one factor at a time when attribution matters; combine factors
 when the suspected failure is an interaction. Put valuable tangents in a
-follow-up-charter list.
+follow-up-charter list. After a valuable discovery, use the post-discovery
+branch in [references/situations.md](references/situations.md) to generalize the
+evidence without overextending it.
 
 When a bad surprise appears, characterize its conditions, scope, severity,
 recovery, and evidence. Seek the smallest reliable reproduction while retaining
